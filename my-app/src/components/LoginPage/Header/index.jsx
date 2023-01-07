@@ -5,12 +5,14 @@ import image from "../../../images/logoSquadhelp.webp";
 class Header extends Component {
   render() {
     return (
-      <div className={styles.headerWrapper}>
+      <header className={styles.headerWrapper}>
         <a href="https://www.squadhelp.com/" target="_blank" rel="noreferrer">
-          <img src={image} alt="logo Squadhelp" />
+          <img className={styles.logoWrapper} src={image} alt="logo Squadhelp" />
         </a>
-        <button className={styles.btn}>Signup</button>
-      </div>
+        <div className={styles.buttonWrapper}>
+        <button className={styles.headerBtn}>Signup</button>
+        </div>
+      </header>
     );
   }
 }
