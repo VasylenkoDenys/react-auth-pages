@@ -1,0 +1,65 @@
+.subHeading {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+  margin: 20px;
+}
+$formItemMargins: 10px 15px;
+.twoSidesInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media (max-width: 580px) {
+    flex-direction: column;
+  }
+  input {
+    border-radius: 10px;
+    border: 2px solid #fff;
+    padding: 25px 20px;
+    font-size: 16px;
+    margin: $formItemMargins;
+  }
+}
+
+.radioChangeWrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputRadioStyle {
+  font-size: 20px;
+  display: flex;
+  border: 2px;
+  padding: 10px 20px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: $formItemMargins;
+  input{
+    margin-right: 10px;
+  }
+  p{
+    font-size: 12px;
+  }
+}
+
+.checkboxStyle{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  padding: 20px;
+}
+.buttonWrapper{
+  text-align: center;
+}
+.serviceText{
+  margin-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+  .serviceLink{
+    color: #fff;
+    text-decoration-line:underline;
+  }
+}
+

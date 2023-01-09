@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import styles from "./LoginForm.module.scss";
+import styles from "../../main.module.scss";
+
 
 class LoginForm extends Component {
   state = {
